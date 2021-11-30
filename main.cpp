@@ -35,7 +35,7 @@ int main()
 	exm[1]->stat.res.Init(30, 50, 20);
 	exm[1]->Init("Леон", 48, "Человек", exm[1]->arm, exm[1]->weap, exm[1]->stat, exm[1]->stat.res, &guild); /*Создание персонажа для примера*/
 	exm[1]->Print();
-
+	cout << endl << "Количество созданных персонажей:" << Character::GetCount();
 	delete exm[0];
 	delete exm[1];
 

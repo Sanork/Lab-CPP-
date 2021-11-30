@@ -15,9 +15,9 @@ private:
 	int lvl; /*Уровень*/
 	string race; /*Раса*/
 	int id;
-
+    static int  count;
 public:
-	static int  count;
+	static int GetCount();
 	Guild *guild;   /*Информация о гильдии*/
     Armor arm; /*Класс брони*/
 	Weapon weap; /*Класс оружия*/

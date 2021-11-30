@@ -8,6 +8,11 @@
 
 using namespace std;
 
+int Character::GetCount()
+{
+	return count;
+}
+
 void Character::Init(string characterName, int characterLVL, string characterRace, Armor arm, Weapon weap, Stats st, Resistance res, Guild *gld) /*Создание персонажа*/
 {
 	name = characterName;
